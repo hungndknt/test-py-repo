@@ -1,7 +1,7 @@
 deployment:
   replicas: 2
   image:
-    owner: hungndk
+    owner: hungitnt
     repository: pythonflaskapp
     tag: 475b3b34ecb1cd1b6eb96e5b8f0676c6abc00e84
   container:
