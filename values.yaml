@@ -1,0 +1,14 @@
+deployment:
+  replicas: 2
+  image:
+    owner: memathesh
+    repository: pythonflaskapp
+    tag: 475b3b34ecb1cd1b6eb96e5b8f0676c6abc00e84
+  container:
+    name: pythonflaskapp
+    port: 80
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 30112
